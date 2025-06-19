@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>T SUPRÊME</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="login-screen">
+    <h1>T SUPRÊME</h1>
+    <input type="text" id="pseudo" placeholder="Pseudo" />
+    <input type="password" id="password" placeholder="Mot de passe" />
+    <button onclick="login()">Connexion</button>
+    <div id="login-error"></div>
+  </div>
+  <div id="chat-screen" style="display:none;">
+    <div id="chat-log"></div>
+    <input type="text" id="message" placeholder="Votre message ou /msg PSEUDO Message"/>
+    <button onclick="sendMessage()">Envoyer</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

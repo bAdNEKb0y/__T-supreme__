@@ -1,0 +1,20 @@
+body {
+  background-color: #0d0d0d;
+  color: #00ff99;
+  font-family: monospace;
+  padding: 20px;
+}
+input, button {
+  background: black;
+  color: #00ff99;
+  border: 1px solid #00ff99;
+  padding: 8px;
+  margin: 5px;
+}
+#chat-log {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #00ff99;
+  margin-bottom: 10px;
+  padding: 5px;
+}
